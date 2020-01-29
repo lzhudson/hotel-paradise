@@ -306,3 +306,29 @@ header li:last-child {
         flex-basis: 100%;
     }
 }
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #191c03;
+    padding: 50px 0;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li {
+    margin-right: 10px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+footer ul li a {
+    color: #c3c63b;
+    font-size: 2rem;
+}
+footer p {
+    color: #c3c63b;
+    text-align: center;
+}
